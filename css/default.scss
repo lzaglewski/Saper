@@ -1,0 +1,58 @@
+
+
+.board {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #c9c9c9;
+    border-style: solid;
+    border-width: 10px;
+   border-color: gray #e6e6e6 #e3e3e3 gray;
+    
+    
+    
+    .field-bomb{
+    float: left;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+    border-color: white rgb(128, 128, 128) rgb(128, 128, 128) white;
+    }
+    
+    
+        .field-hide{
+    float: left;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: #b1b1b1;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white rgb(128, 128, 128) rgb(128, 128, 128) white;
+    }
+    
+      
+    .field-shown{
+    float: left;
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    background-color: rgb(216, 216, 216);
+        border-width: 1px;
+    border-style: solid;
+    border-color:  rgb(170, 170, 170)  ;
+        
+        p{
+            color: red;
+        }
+    }
+    
+    .clear {
+	
+        clear: both;
+    }
+	
+}
